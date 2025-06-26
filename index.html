@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rubik's Cube Solver with SVG</title>
+  <style>
+    #svg-output {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Rubik's Cube Solver with SVG</h1>
+  <button onclick="scrambleCube()">Scramble Cube</button>
+  <button onclick="solveCube()">Solve Cube</button>
+  <button onclick="resetCube()">Reset Cube</button>
+
+  <div id="steps-log"></div>
+  <div id="svg-output"></div>
+
+  <script src="cube.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
